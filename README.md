@@ -1,0 +1,1 @@
+This project is about the practising the fundamental of JavaScript
