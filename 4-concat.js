@@ -2,17 +2,8 @@ const stringConcat = (str1, str2) => {
     results =  str1 + " is "  + str2;
     return results;
 }
-console.log(stringConcat("C", "fun"));
+console.log(stringConcat("Python", "fun"));
+console.log(stringConcat("HBTN"));
+console.log(stringConcat());
 
-
-let  stringHBTN = (str1, str2) => {
-    results =  str1 + " is "  + str2;
-    return results;
-}
-console.log(stringHBTN("C"));
-
-const stringUndefined = (str1, str2) => {
-    results =  str1 + " is "  + str2;
-    return results;
-}
-console.log(stringUndefined());    
+    
