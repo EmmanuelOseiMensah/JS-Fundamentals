@@ -9,10 +9,10 @@ const stringHBTN = (str1, str2) => {
     results =  str1 + " is "  + str2;
     return results;
 }
-console.log(stringHBTN("HBTN", "undefined"));
+console.log(stringHBTN("HBTN"));
 
 const stringUndefined = (str1, str2) => {
     results =  str1 + " is "  + str2;
     return results;
 }
-console.log(stringUndefined("undefined", "undefined"));    
+console.log(stringUndefined());    
