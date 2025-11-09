@@ -1,22 +1,23 @@
-// Define the array of required phrases using 'const'.
+// Step 1: Create an array (a list) of sentences.
 const languages = [
-    "C is fun",
-    "Python is cool",
-    "JavaScript is amazing"
+  "C is fun",
+  "Python is cool",
+  "JavaScript is amazing"
 ];
 
-// Initialize an empty string to hold the final output.
-const output = "";
+// Step 2: Create a variable to hold all sentences together.
+// We'll start with an empty string.
+let result = "";
 
-// Use the reduce() method to loop through the array and build the single output string.
-// reduce() is a type of loop that processes an array and returns a single value.
-// It avoids using traditional for or while loops and allows for the single console.log.
-const finalOutput = languages.reduce((accumulator, currentValue) => {
-    // For every item, join the accumulator (the string built so far)
-    // with the current item, followed by a newline character (\n).
-    return accumulator + currentValue + '\n';
-}, output); // Start the accumulator with the empty 'output' string
+// Step 3: Go through each sentence in the array using a for loop.
+for (let i = 0; i < languages.length; i++) {
+  // Add the current sentence to 'result'
+  // and put a new line after it (\n).
+  result += languages[i] + "\n";
+}
 
-// Use the slice(0, -1) method to remove the trailing newline character (\n)
-// which was added after the last element.
-console.log(finalOutput.slice(0, -1));
+// Step 4: Remove the last extra newline character using trim().
+result = result.trim();
+
+// Step 5: Print the final result to the console.
+console.log(result);
