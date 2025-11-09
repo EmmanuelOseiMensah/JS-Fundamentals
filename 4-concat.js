@@ -2,7 +2,4 @@ const stringConcat = (str1, str2) => {
     results =  str1 + " is "  + str2;
     return results;
 }
-
-console.log(stringConcat("c ", "cool"));
-console.log(stringConcat("JavaScript", "amazing"));
 console.log(stringConcat("Python", "fun"));
