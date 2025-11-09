@@ -3,3 +3,5 @@ const stringConcat = (str1, str2) => {
     return results;
 }
 console.log(stringConcat("Python", "fun"));
+console.log(stringConcat("HBTN", "undefined"));
+console.log(stringConcat("undefined", "undefined"));    
